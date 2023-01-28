@@ -15,14 +15,22 @@ function App() {
   return (
     <div className="App">
     <Router>
+        <header>
         <NavBar />
-        <Routes>
+        </header>
+        <Home/>
+        <About/>
+        <Projects/>
+        <Contact/>
+        {/* <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
-        </Routes>
+        </Routes> */}
+        <footer>
         <Footer />
+        </footer>
       </Router>
   </div>
   );
