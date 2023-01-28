@@ -1,0 +1,18 @@
+
+.contact__option {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    padding-bottom: 15px; 
+    padding-left: 20px;
+} 
+
+.contact__text {
+    color: black;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.contact__logo {
+    padding-right: 10px;
+}
