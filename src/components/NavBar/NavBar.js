@@ -1,48 +1,42 @@
 import React from "react";
 import "./NavBar.css"
 import { Link } from "react-router-dom";
-import NavItem from "./NavItem";
+// import NavItem from "./NavItem";
 import { navItems } from "./NavItems";
+import { NavHashLink } from "react-router-hash-link";
+import Home from "../Home/Home";
+import About from "../About/About";
+import Projects from "../Projects/Projects";
+import Contact from "../Contact/Contact";
 
 
 const NavBar = ({ setClicked, clicked }) => {
     return (
-        <nav className={`NavBar ${clicked ? "active" : ""}`}>
-            {navItems.map((item) => (
-                <NavItem
-                    setClicked={setClicked}
-                    clicked={clicked}
-                    name={item.name}
-                    link={item.link}
-                />
-            ))}
-        </nav>
+        <div className="nav-bar">
+            <NavHashLink to="/" className="nav-item">Home</NavHashLink> <br/>
+            <NavHashLink to="/about" className="nav-item">About</NavHashLink> <br/>
+            <NavHashLink to="/projects" className="nav-item">Projects</NavHashLink> <br/>
+            <NavHashLink to="/contact" className="nav-item">Contact</NavHashLink>
+
+        </div>
+
+
     );
-    }
+}
 
 
-        // return (
-        //     <div>
-        //         <ul>
-        //             <li>
-        //                 <Link to="/">Home</Link>
-        //             </li>
-        //             <li>
-        //                 <Link to="/about">About</Link>
-        //             </li>
-        //             <li>
-        //                 <Link to="/projects">Projects</Link>
-        //             </li>
-        //             <li>
-        //                 <Link to="/contact">Contact</Link>
-        //             </li>
-
-        //         </ul>
-        //     </div>
-        // )
-    
+//     <nav className={`NavBar ${clicked ? "active" : ""}`}>
+//     {navItems.map((item) => (
+//         <NavItems
+//             setClicked={setClicked}
+//             clicked={clicked}
+//             name={item.name}
+//             link={item.link}
+//         />
+//     ))}
+// </nav>
 
 
 
 
-    export default NavBar
+export default NavBar

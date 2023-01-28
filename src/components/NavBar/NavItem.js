@@ -1,14 +1,14 @@
-import { NavLink } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
 // import "./NavItem.css";
 
 const NavItem = ({ clicked, setClicked, name, link }) => {
-    const isContact = name === "Contact";
+    // const isContact = name === "Contact";
     return (
-        <NavLink
-            scroll={(el) =>
-                el.scrollIntoView({
-                    behavior: "smooth",
-                    block: `${isContact ? "start" : "end"}`,
+        <NavHashLink
+            scroll={(element) =>
+                element.scrollIntoView({
+                    behavior: "smooth"
+                    // block: `${isContact ? "start" : "end"}`,
                 })
             }
             to={`/${link}`}
@@ -20,7 +20,7 @@ const NavItem = ({ clicked, setClicked, name, link }) => {
             }}
         >
             <h3>{name}</h3>
-        </NavLink>
+        </NavHashLink>
     );
 }
 
