@@ -14,7 +14,7 @@ const About = () => {
         className="about__headshot"
         src={my_photo}
         alt="Victoria-photo"
-        width="250"
+        width="300"
         height="300"
     />
 

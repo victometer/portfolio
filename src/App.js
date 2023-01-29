@@ -18,18 +18,12 @@ function App() {
         <header >
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
           </link>
-        <NavBar />
+        <NavBar />›
         </header>
         <Home/>
         <About/>
         <Projects/>
         <Contact/>
-        {/* <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="contact" element={<Contact />} />
-        </Routes> */}
         <footer>
         <Footer />
         </footer>
