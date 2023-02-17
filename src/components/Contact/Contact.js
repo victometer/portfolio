@@ -9,13 +9,13 @@ const Contact = () => {
             <div className="contact__option">
                 <FaMailBulk className="contact__logo" size={45} />
                 <a href="mailto: vicki_ng92@yahoo.com">
-                    <span className="contact__text">vicki_ng92@yahoo.com</span>
+                    <span className="contact__text">victoria.dorosenco@gmail.com</span>
                 </a>
             </div>
             <div className="contact__option">
                 <FaLinkedin className="contact__logo" size={45} />
                 <a
-                    href="https://www.linkedin.com"
+                    href="https://www.linkedin.com/in/victoria-doroshenco-a1a5b9266/"
                     aria-label="my Linkedin"
                 >
                     <span className="contact__text">Victoria-Dorosenco</span>

@@ -1,13 +1,13 @@
 import React from "react";
 import "./About.css"
-import my_photo from "./images/my_photo.jpg"
+import my_photo from "./images/my_photo.png"
 
 const About = () => {
     return (
         <section>
             <h2 className="about__heading" id="About">About Me</h2>
             <p className="about__body">
-                Hello! My name is Victoria and I am a software noob. I'm about to graduate from CodeClan and am very eager to put mu newly learnt skills to real life use.
+            Hi there! I'm Victoria, a recent graduate of CodeClan and a newcomer to the tech industry. I'm excited to apply my newly acquired skills towards solving real-world problems and building innovative solutions."
                 
             </p>
             <img
@@ -15,7 +15,7 @@ const About = () => {
         src={my_photo}
         alt="Victoria-photo"
         width="300"
-        height="300"
+        height="350"
     />
 
         </section>
