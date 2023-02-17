@@ -12,8 +12,8 @@
 `npm run deploy`
 
 ### Tools
-This app is built in React
-Using JavaScript and CSS
+1. This app is built in React
+2. Using JavaScript and CSS
 
 ### Libraries used
 https://devicon.dev/ - programming icons
