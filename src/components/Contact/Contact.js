@@ -15,7 +15,7 @@ const Contact = () => {
             <div className="contact__option">
                 <FaLinkedin className="contact__logo" size={45} />
                 <a
-                    href="https://www.linkedin.com/in/victoria-doroshenco-a1a5b9266/"
+                    href="www.linkedin.com/in/victoria-dorosenco"
                     aria-label="my Linkedin"
                 >
                     <span className="contact__text">Victoria-Dorosenco</span>
