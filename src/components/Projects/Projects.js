@@ -3,6 +3,7 @@ import "./Projects.css"
 import QuizzJS from "./images/QuizzJS.png"
 import GymPython from "./images/GymPython.png"
 import WorldJS from "./images/WorldJS.png"
+import CheckPlease from "./images/CheckPlease.png"
 
 
 const Projects = () => {
@@ -24,6 +25,11 @@ const Projects = () => {
                     <img src={WorldJS} alt="World-image" width="300" height="330" className="project-img" />
                     <a className="gitHubLink"
                         href="https://github.com/victometer/Javascript-Project">GitHub Link</a>
+                </div>
+                <div className="grid-item">
+                    <img src={CheckPlease} alt="Profile-and-2-companies-on-side-image" width="300" height="330" className="project-img" />
+                    <a className="gitHubLink"
+                        href="https://github.com/victometer/checkPlease_App">GitHub Link</a>
                 </div>
             </div>
             <h2>Tech Stack</h2>
